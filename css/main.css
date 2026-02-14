@@ -20,6 +20,29 @@ body {
   perspective: 1000px;
 }
 
+.message-top{
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(900px, 92vw);
+  color: #e6ffff;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  white-space: pre-line;
+  z-index: 1000;
+  text-shadow: 0 0 12px #39c6d6, 0 0 24px #39c6d6;
+}
+@media screen and (max-width:574px){
+  .message-top{
+    font-size: 1rem;
+    line-height: 1.6;
+    top: 12px;
+    padding: 0 8px;
+  }
+}
+
 .night {
   position: fixed;
   left: 50%;

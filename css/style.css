@@ -53,6 +53,16 @@ body{
     color: #111;
 }
 
+.message{
+    display: none;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    max-width: 800px;
+    white-space: pre-line;
+    margin-top: 16px;
+}
+
 @media screen and (max-width:574px){
     .greetings{
         display: block;
@@ -66,5 +76,10 @@ body{
     
     .button a{
         font-size: .5rem;
+    }
+    .message{
+        font-size: 1rem;
+        line-height: 1.6;
+        padding: 0 12px;
     }
 }
